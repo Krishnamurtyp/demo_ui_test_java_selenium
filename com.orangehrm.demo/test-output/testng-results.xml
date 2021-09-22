@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case Executed: test_single_user]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27483" started-at="2021-09-22T15:07:50Z" finished-at="2021-09-22T15:08:17Z">
+    <groups>
+      <group name="Smoke Test">
+        <method signature="Login_Test.test_single_user()[pri:0, instance:testcases.Login_Test@4566e5bd]" name="test_single_user" class="testcases.Login_Test"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Default test" duration-ms="27483" started-at="2021-09-22T15:07:50Z" finished-at="2021-09-22T15:08:17Z">
+      <class name="testcases.Login_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.Login_Test@4566e5bd]" name="setUp" is-config="true" duration-ms="14300" started-at="2021-09-22T20:37:50Z" finished-at="2021-09-22T20:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_single_user()[pri:0, instance:testcases.Login_Test@4566e5bd]" name="test_single_user" duration-ms="12121" started-at="2021-09-22T20:38:04Z" finished-at="2021-09-22T20:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_single_user -->
+        <test-method status="PASS" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:testcases.Login_Test@4566e5bd]" name="cleanUp" is-config="true" duration-ms="1039" started-at="2021-09-22T20:38:16Z" finished-at="2021-09-22T20:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_single_user status=SUCCESS method=Login_Test.test_single_user()[pri:0, instance:testcases.Login_Test@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Executed: test_single_user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testcases.Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
